@@ -2,7 +2,7 @@
 
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('next-js-core2');
-  var PullToRefresh = window.PullToRefresh || require('pulltorefreshjs');
+  var PullToRefresh = global.PullToRefresh || require('pulltorefreshjs');
   var DEFAULT_OPTIONS = {
     iconRefreshing: '<i class="webkit-sassui-spinkit" style="width:16px; height: 16px;" />',
     instructionsPullToRefresh: '下拉刷新',
