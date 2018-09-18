@@ -1,0 +1,27 @@
+{
+  "name": "next-pull-to-refresh",
+  "version": "0.0.1",
+  "description": "Pull to refresh for next",
+  "main": "dist/next-pull-to-refresh.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-pull-to-refresh",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "build",
+    "gulpfile.js"
+  ]
+}
