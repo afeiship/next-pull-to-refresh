@@ -3,9 +3,9 @@
 
 ## usage:
 ```js
-import NxPullToRrefresh from 'next-pull-to-refresh';
+import NxPullToRefresh from 'next-pull-to-refresh';
 
-this.refresher = new NxPullToRrefresh({
+this.refresher = new NxPullToRefresh({
   //YOUR_OPTIONS
 });
 ```
